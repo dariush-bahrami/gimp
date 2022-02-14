@@ -224,6 +224,8 @@ struct _GimpDisplayShell
   gboolean           layer_picking;
   GimpLayer         *picked_layer;
 
+  gboolean           mod1_settings;
+
   GeglBuffer        *mask;
   gint               mask_offset_x;
   gint               mask_offset_y;
